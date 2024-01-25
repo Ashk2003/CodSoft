@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body> 
+<div class="calculator">
+    <input type="text" id="result" >
+  <div class="buttons"> 
+      <div>
+        <button onclick="appendNumber(7)">7</button>
+        <button onclick="appendNumber(8)">8</button>
+        <button onclick="appendNumber(9)">9</button>
+        <button onclick="clearScreen()">AC</button>
+      </div>
+    <br/>
+    <div>
+      <button onclick="appendNumber(4)">4</button>
+      <button onclick="appendNumber(5)">5</button>
+      <button onclick="appendNumber(6)">6</button>
+      <button onclick="appendOperation('+')">+</button>
+    </div>
+    <br/>
+    <div>
+      <button onclick="appendNumber(1)">1</button>
+      <button onclick="appendNumber(2)">2</button>
+      <button onclick="appendNumber(3)">3</button>
+      <button onclick="appendOperation('-')">-</button>
+    </div>
+    <br/>
+    <div>
+      <button onclick="appendOperation('/')">/</button>
+      <button onclick="appendNumber(0)">0</button>
+      <button onclick="appendNumber('*')">*</button>
+      <button onclick="calculate()">=</button>
+    </div>
+    <br/><center/>
+    <div>
+      <button onclick="appendOperation('.')">.</button>
+      <button id="backspace">C</button>
+    </div>
+  </div>
+</div>
+  <script src="./script.js"></script>
+</body>
+</html>
+
+/*script file*/
+function clearScreen() {
+  document.getElementById("result").value = "";
+}
+
+function appendNumber(number) {
+  document.getElementById("result").value += number;
+}
+
+function appendOperation(operation) {
+  document.getElementById("result").value += operation;
+}
+
+function calculate() {
+  try {
+    var expression = document.getElementById("result").value;
+    var result = eval(expression);
+    document.getElementById("result").value = result;
+  } catch (error) {
+    document.getElementById("result").value = "Error";
+  }
+}
+
+document.getElementById("backspace").addEventListener("click", backspaceFunction);
+function backspaceFunction() {
+  const inputField = document.getElementById("result");
+
+  const currentValue = inputField.value;
+
+  if (currentValue !== "") {
+    const newValue = currentValue.substring(0, currentValue.length - 1);
+
+    inputField.value = newValue;
+  }
+}
+
+
+/*CSS file*/
+.calculator {
+    background-color: skyblue;
+    align-items:center;
+    display: flex;
+    flex-direction:column;
+    margin:auto;
+    width: 275px;
+    border: 4px solid black;
+    border-radius: 40px;
+    /*padding-left: -10px;
+    padding-right: -10px;*/
+    padding-top: 25px;
+  }
+
+  input{
+    position: relative;
+    bottom: 10px;
+    border-width: 8px 8px  thin ;
+    border-radius: 20px;
+  }
+
+  button{
+    background-color: bisque;
+    border-radius: 50px;
+  }
+  
+  #result {
+    width: 75%;
+    height: 40px;
+    font-size: 20px;
+    font-style: bold;
+    color: black;
+    text-align: right;
+    border: 20px thick red;
+  }
+  
+  .buttons {
+    display: grid;
+  }
+
+  .backspace{
+    width: fit-content;
+  }
+  
+  button {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  

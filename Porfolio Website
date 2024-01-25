@@ -135,6 +135,11 @@
         </h6>
       </div>
     </div>
+ </body>
+
+</html>
+
+
 
 /**CSS File**/
 .head{
@@ -221,9 +226,3 @@
 .footer{
     background-color: antiquewhite;
 }
-
-
-  </body>
-
-</html>
-

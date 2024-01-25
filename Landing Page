@@ -1,0 +1,458 @@
+<--! HTML File -->
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <head>
+        <title> Visit India </title>
+        <link rel="stylesheet" href="./style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Estonia&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Pacifico&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital@1&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="navigation">
+            <h3 class="Menu"><a href="#">Menu</a></h3>
+            <h3 class="log"><a href="#">Login</a></h3>
+            <h3 class="Book"><a href="#">Book A Trip Now!</a></h3>
+        </div>
+        <div class="start">
+            <div class="India"> Bhramayantee </div>
+            <div class="slogo">Let's Roam !!</div>
+            <img src="D:\CodSoft\samuel-arkwright-Fd7cGLYH278-unsplash.jpg" style="width: 100%;">
+        </div>
+        
+        <div class="middle">
+            <h2 > Welcome to Bhramayantee, Your Touring Guide!! </h2> 
+        </div>
+        
+        <div class="middle2">
+            <h3>Here's why you should book trip from us!</h3>
+            Craft your dream escapes, not cookie-cutter tours. We're travel alchemists, transforming wanderlust
+            into unforgettable journeys. Ditch the ordinary, explore hidden gems, and savor local rhythms.
+            From sun-kissed beaches to starlit deserts, let us curate adventures that ignite your soul. Book 
+            with Bhramayantee, and discover the magic woven into every itinerary.
+        </div>
+
+    <div class="glimpse">
+      <div class="up"></div>
+      <div class="diff">A Glimpse of India_Tour Package from us</div>
+      <div class="down"></div>
+    </div>
+
+      <div class="Monuments">
+            <h2>Monuments to Visit!!</h2>
+
+          <div class="Ajanta1">
+            <h3>Ajanta-Veral Leni</h3>
+            <div class="Monument">
+                <img src="D:\CodSoft\Ajanta.jpg" width="35%">
+                <p>
+                    Carved from basalt cliffs, Ajanta whispers tales of gods and mortals in vibrant frescoes. Time's
+                    brush may have softened their edges, yet their colors dance – ochre flames flicker around 
+                    celestial nymphs, emerald vines entwine sapphire demons, and ivory Buddhas radiate serenity 
+                    against inky backdrops. Sunbeams, slanting through ancient wounds, illuminate stories whispered
+                    across millennia.
+                </p>    
+            </div>
+          </div>
+
+          <div class="Taaj1">
+            <h3>Taaj Mahal</h3>
+            <div class="Monument">
+                <img src="D:\CodSoft\Taj_Mahal,_Agra,_India_edit3.jpg" width="35%">
+                <p>A teardrop kissed by moonlight, the Taj Mahal weeps in marble. Whispers of grief etched in ivory, its spires
+                     pierce the heavens, a lover's ode in stone. White petals of grief bloom on reflecting pools, 
+                     where eternity dances with the past. 
+                </p>   
+            </div>
+          </div>
+
+          <div class="golden1">
+            <h3>Golden Temple</h3>
+            <div class="Monument">
+                <img src="D:\CodSoft\Golden Temple.jpeg"  width="35%">
+                <p>Beneath a sun-kissed dome, where gold kisses sapphire waters, whispers of devotion dance on 
+                    gilded wings. The Golden Temple, Amritsar's beating heart, pulsates with serenity. Marble
+                    petals unfurl around its sacred pool, reflecting the heavens in their embrace. White doves coo
+                    hymns under a canopy of intricate latticework, their feathers dusted with celestial light.
+                </p>
+            </div>
+         </div>
+
+          <div class="Hawa1">
+            <h3> Hawa Mehel </h3>
+            <div class="Monument">
+                <img src="D:\CodSoft\Hawa Mehel.jpeg" width="35%">
+                <p> Jaipur's rose-blush heart, a melody of winds takes flight. Hawa Mahal, a canvas of filigree, where sandstone
+                    dreams in lace. A thousand eyes, veiled in pink, peek shyly at the bustling bazaars below. Each jharokha,
+                    a whispered secret, a promise of cool whispers on sun-drenched days. Royal whispers dance on moonlit 
+                    breezes, painting tales of queens and courtesans in the shadows.</p>
+            </div>
+          </div>    
+        </div>
+                <button class="Register">Register To know More!!</button>
+
+        <div class="Marvel">
+            <h2>Culture Whispers!!</h2>
+
+            <div class="cult">
+                <video autoplay muted loop>
+                    <source src="D:\CodSoft\CodSoft\LandPage\Vrij background.mp4" type="video/mp4"> 
+                </video>
+                <div class="overlay">
+                    <h3>Oldest Civilization on planet Earth:Vrindaavan</h3>
+                    Vrindavan, cradled by the Yamuna in Uttar Pradesh, whispers tales older than time. Its saffron
+                    heart beats with the rhythm of devotion, where Krishna's playful spirit dances in every rustle
+                    of leaves. Temples adorned with intricate frescoes stand sentinel, echoing hymns sung for 
+                    millennia. Ghats bathed in golden sunsets beckon pilgrims, their reflections merging with the 
+                    river's timeless flow. 
+                </div>    
+            </div>
+            <br/>
+            <br/>
+            <div class="cult">
+                <video autoplay muted loop>
+                    <source src="D:\CodSoft\CodSoft\LandPage\kola.mp4" type="video/mp4"> 
+                </video>
+                <div class="overlay">
+                    <h3>Kola!, The Karnataki Culture</h3>
+                    Where Warriors Dance and Spirits Soar. In the emerald embrace of Kerala's backwaters, a vibrant
+                    pulse beats - the Kola culture. Here, clad in crimson and gold, transform into fierce warriors and
+                    playful deities. Faces painted in stark lines, bodies adorned with jingling anklets, they become
+                    conduits for ancient legends. The air thrums with the rhythm of chenda drums, a primal heartbeat urging
+                    limbs to pirouette, stomp, and leap. 
+                </div>
+            </div>
+            <br/>
+            <br/>
+            <div class="cult">
+                <video autoplay muted loop>
+                    <source src="D:\CodSoft\CodSoft\LandPage\khasi.mp4" type="video/mp4"> 
+                </video>
+                <div class="overlay">
+                    <h3>Meghalay's society of the Khasi Culture</h3>
+                    In Khasi society, women hold power, inherit property, and lead households. Vibrant dances like
+                    Nongkrem, celebrating fertility, and Shad Masken, showcasing warrior spirit, reflect their
+                    strength and cultural richness.Unlike most societies, Khasi women hold the reins of power. 
+                    They inherit ancestral property, make crucial decisions concerning the family and household,
+                    and even lead villages and hold political positions.
+                </div>    
+            </div>
+            <br/>
+            <br/>
+            <div class="cult">
+                <video autoplay muted loop>
+                    <source src="D:\CodSoft\CodSoft\LandPage\tibet.mp4" type="video/mp4">
+                </video>
+                <div class="overlay">
+                    <h3>Tibet's Vibrant Culture</h3>
+                    Tibetan culture is a vibrant tapestry woven from the threads of its unique geography, rich
+                    history, and deep spirituality. Nestled high in the Himalayas, Tibet has fostered a
+                    distinct way of life for centuries.  Majestic monasteries like Potala Palace and Jokhang Temple
+                    stand as testaments to Tibetan architectural prowess. Their colorful facades, intricate
+                    carvings, and golden roofs showcase a unique blend of Indian and Chinese influences.
+                </div>    
+            </div>
+        </div>
+        <button class="BookTrip">Book A Trip!!</button>
+        <br/><br/>
+        
+        <div class="Footer">
+            <h2>Bhramayantee</h2>
+            <h4>Travel Services</h4>
+            <div class="contact">
+                <h4> Contact At:</h4>
+                <h5>
+                  <ul>
+                    <li> +91 9890315342 </li>
+                    <li> bhmrbookings@gmail.com</li>
+                    <li> <a href="">Follow</a>us on Instagram</li>
+                    <li><a href="">Follow</a>us in Facebook</li>
+                  </ul>
+                </h5>
+            </div>   
+          </div>
+      
+    </body>
+</html>
+
+/**CSS File**/
+.start{
+  position: relative;
+  bottom: 55px;
+}
+
+.navigation{
+  display: flex;
+  color: white;
+  font-family: 'Pacifico', cursive;
+}
+
+.Menu{
+ position: relative;
+ right: -50px;
+ display: inline-block; 
+ padding: 10px 20px; 
+ background-color: #eee; 
+ border: 1px solid #ccc;
+ text-decoration: none;
+ cursor: pointer;
+}
+
+.log{
+  position: relative;
+  right: -950px;
+  display: inline-block; 
+  padding: 10px 20px; 
+  background-color: #eee;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.Book{
+  position: relative;
+  right: -1000px;
+  display: inline-block; 
+  padding: 10px 20px; 
+  background-color: #eee; 
+  border: 1px solid #ccc;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.Menu:hover {
+  background-color: #ddd;
+}
+
+
+.Menu:active {
+  background-color: #ccc; 
+}
+
+.log:hover {
+  background-color: #ddd; 
+}
+
+
+.log:active {
+  background-color: #ccc; 
+}
+
+.Book:hover {
+  background-color: #ddd; 
+}
+
+
+.Book:active {
+  background-color: #ccc; 
+}
+
+.India{
+position: absolute;
+color: brown;
+font-size: 4em;
+font-weight: bold;
+font-family: 'Pacifico', cursive;
+text-align: center;
+text-shadow:/* Primary shadow */
+0 0 5px #fff,
+/* Secondary shadows for sparkle */
+0 0 10px #ddd,
+0 0 15px #ccc,
+0 0 20px #bbb;
+position: absolute;
+top: 85px;
+left: 555px;
+}
+
+.slogo{
+position: absolute;
+color:black;
+font-size: 3em;
+font-style: italic;
+font-family: 'Cedarville Cursive', cursive;
+position: relative;
+top: 155px;
+left: 10px;
+text-align: center;
+text-shadow:  0 5px #fff,
+0 0 10px #ddd,
+0 0 15px #ccc,
+0 0 20px #bbb;
+}
+
+body{
+text-align: center;
+background-color: aquamarine;
+}
+
+.middle{
+position: relative;
+color:lightskyblue;
+font-size: 2em;
+font-family: 'Pacifico', cursive ;
+font-style: italic;
+}
+
+.middle2{
+font-family: 'Pacifico', cursive ;
+font-size: x-large;
+}
+
+.Monuments{
+background-color: whitesmoke;
+font-family:'Pacifico', cursive ;
+}
+
+.up{
+  position: relative;
+  background-color: white;
+  padding: 10px 20px; 
+  top: -10px;
+}
+
+.diff{
+  display: inline-block; 
+  padding: 10px 20px; 
+  border: yellowgreen;
+  border-style: dashed;
+  font-size:50px;
+  font-family: 'Estonia', cursive;
+  color: burlywood;
+  position: relative;
+  top: -10px;
+}
+
+.down{
+  position: relative;
+  background-color: white;
+  padding: 10px 20px; 
+  top:-10px;
+}
+
+.glimpse{
+  position: relative;
+  top: 50px;
+}
+
+.Monument {
+/*display: flex;
+align-items: flex-start;
+flex-direction: row;*/
+position: relative;
+bottom: 40 px;
+}
+
+img{
+  border-radius: 15%;
+  overflow:hidden;
+}
+
+.Marvel{
+font-family:'Pacifico', cursive;
+background-color: aliceblue;
+overflow: hidden;
+}
+
+.cult{
+position: relative;
+bottom: 35px;
+top: 15px;
+width:100%;
+height:100vh;
+overflow: hidden;
+border-radius: 15%;
+}
+
+.cult video{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.overlay{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%); 
+text-align: center;
+color: white; 
+font-size: 2em; 
+}
+
+h2{
+color: mediumseagreen;
+font-size: 3em;
+font-weight: bold;
+font-family: 'Estonia', cursive;
+}
+
+.Register{
+  position: relative;
+  top:-10px;
+  width: 170px;
+  height: 65px;
+  font-size: 16px;
+  border-radius: 35%;
+  font-family:'Pacifico', cursive;
+  background-color:burlywood;
+  font-weight: bold;
+}
+
+.BookTrip{
+  position: relative;
+  top: 13px;
+  width: 170px;
+  height: 45px;
+  font-size: 35px;
+  border-radius: 35%;
+  background-color: Red;
+  font-family: 'Estonia', cursive;
+  color: white;
+  font-weight: bold;
+}
+
+.Footer{
+  position: relative;
+  top:10px;
+  display: flex;
+  justify-content: flex-start;
+  background-color:darkslategrey
+}
+
+.Footer h2{
+  font-family: 'Pacifico', cursive;
+} 
+
+.Footer h4{
+  position: relative;
+  top:90px;
+  left:-20px;
+}
+
+.contact{
+  position: relative;
+  left: 850px;
+}
+
+.contact h4{
+  top: 0px;
+}
